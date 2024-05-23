@@ -1,4 +1,5 @@
 import os
+os.system('pip install requests ')
 os.system('clear')
 #icone&collor
 
