@@ -1,5 +1,22 @@
+import subprocess
+import sys
 import os
-os.system('pip install pytube')
+# قائمة المكتبات التي تريد تثبيتها
+libraries = [
+    "requests",
+    "faker",
+    "ping3",
+    "phonenumbers",
+    "pyfiglet",
+    "user_agent",
+    "pytube"
+]
+
+# تثبيت المكتبات باستخدام subprocess
+for lib in libraries:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", lib])
+
+
 os.system('clear')
 #icone&collor
 
