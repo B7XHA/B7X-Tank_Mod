@@ -1,5 +1,5 @@
 import os
-os.system('pip install requests ')
+os.system('pip install pytube')
 os.system('clear')
 #icone&collor
 
